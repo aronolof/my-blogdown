@@ -9,10 +9,27 @@ tags: []
 
 I'm using this page to test some R functions.
 
-```{r}
+```{r groundbreaking}
 1+1
-
 
 ```
 
 Huge if true.
+
+Now, interactiveness:
+
+```{r message=FALSE}
+
+library(ggplot2)
+library(plotly)
+
+gg <- ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  theme_bw()
+
+ggplotly(gg)
+```
+
+
+
