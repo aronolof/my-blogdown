@@ -1,0 +1,18 @@
+---
+title: R Markdown Test
+author: Aron
+date: '2018-03-25'
+slug: r-markdown-test
+categories: []
+tags: []
+---
+
+I'm using this page to test some R functions.
+
+```{r}
+1+1
+
+
+```
+
+Huge if true.
